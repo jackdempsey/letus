@@ -1,0 +1,7 @@
+{:quip
+ {:mappings
+  {:thisweek "https://instacart.quip.com/fo"
+   :roadmap "https://instacart.quip.com/foo"
+   :prd "https://instacart.quip.com/foo"
+   :prj "https://instacart.quip.com/foo"
+
