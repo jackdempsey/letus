@@ -20,9 +20,9 @@ The link to your Quip doc for RCA items immediately opens in browser. No more wo
   {}}
  :asana
   {:api-key "YOUR KEY HERE", ; to generate an api-key, go to Asana.com top right -> My Profile Settings -> Apps -> Manage Developer Apps -> Personal Access Tokens -> click on Create New Personal Access Token
-   :user-id YOUR ID, ; To find your user-id and name go to https://app.asana.com/api/1.0/users/me
+   :user-id YOUR_ID, ; To find your user-id and name go to https://app.asana.com/api/1.0/users/me
    :user-name "Jack Dempsey",
-   :workspace-id "WORKSPACE ID", ; Go to https://app.asana.com/api/1.0/workspaces and find the correct ID
+   :workspace-id WORKSPACE_ID, ; Go to https://app.asana.com/api/1.0/workspaces and find the correct ID
    :status "inbox" ; can be one of {inbox, later, today, upcoming
    }}
 ```
