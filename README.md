@@ -2,6 +2,15 @@
 
 A command line tool designed to increase developer productivity. Quickly open Quip docs, create tasks in Asana, and more.
 
+## Installation
+
+```
+$ git clone https://github.com/jackdempsey/letus
+$ mkdir -p ~/bin # or wherever you'd like
+$ cp letus/bin/letus ~/bin
+$ chmod +x ~/bin/letus
+```
+
 ## Quip
 
 ```
