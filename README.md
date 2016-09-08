@@ -16,7 +16,8 @@ The link to your Quip doc for RCA items immediately opens in browser. No more wo
 ```
  ~/git/letus master > cat ~/.letus.config.edn
 {:quip
- {:mappings
+ {:api-key "TOKEN HERE" ; generate one here: https://instacart.quip.com/api/personal-token
+ :mappings
   {}}
  :asana
   {:api-key "YOUR KEY HERE", ; to generate an api-key, go to Asana.com top right -> My Profile Settings -> Apps -> Manage Developer Apps -> Personal Access Tokens -> click on Create New Personal Access Token
@@ -42,3 +43,5 @@ And you'll see the task sitting at the top of your New Tasks list! If you want t
 ```
 
 Etc.
+=======
+And you'll see the task sitting at the top of your New Tasks list!
