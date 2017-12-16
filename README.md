@@ -59,12 +59,14 @@ Write a small function for an easier/faster interface:
 ```
 function fix {
   str="$*"
-  bin/letus asana --command fix --task-name $str
+  letus asana --command fix --task-name $str
 }
 ```
 
 And then use it like: `$ fix the issue with the api`
-Note: above is ZSH, YMMV with your shell of choice.
+Note: above is ZSH, YMMV with your shell of choice. Also, you need a
+`:fix-it-project-id PROJECT_ID_HERE,` entry in your `.letus.config.edn`
+file.
 
 
 
