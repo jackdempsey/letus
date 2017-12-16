@@ -63,7 +63,7 @@ function fix {
 }
 ```
 
-And then use it like: `fix the issue with the api`
+And then use it like: `$ fix the issue with the api`
 Note: above is ZSH, YMMV with your shell of choice.
 
 
