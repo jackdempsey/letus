@@ -52,5 +52,20 @@ And you'll see the task sitting at the top of your New Tasks list! If you want t
 ~/bin > t "this is another test"
 ```
 
+
+# Running even more easily
+
+Write a small function for an easier/faster interface:
+```
+function fix {
+  str="$*"
+  bin/letus asana --command fix --task-name $str
+}
+```
+
+And then use it like: `fix the issue with the api`
+
+
+
 Etc.
 And you'll see the task sitting at the top of your New Tasks list!
