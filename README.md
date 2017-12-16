@@ -53,7 +53,7 @@ And you'll see the task sitting at the top of your New Tasks list! If you want t
 ```
 
 
-# Running even more easily
+### Running even more easily
 
 Write a small function for an easier/faster interface:
 ```
