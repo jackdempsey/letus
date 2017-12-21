@@ -68,7 +68,21 @@ Note: above is ZSH, YMMV with your shell of choice. Also, you need a
 `:fix-it-project-id PROJECT_ID_HERE,` entry in your `.letus.config.edn`
 file.
 
+A similar example for a win function exists in this repo as well:
+```
+function win {
+  str=${@:2}
+  if [ $1  = 'jack' ] || [ $1  = 'me' ] || [ $1  = 'bill' ] || [ $1  = 'sarah' ] ; then
+    letus asana --command win --task-name $str --person-name $1
+  else
+    letus asana --command win --task-name $str
+  fi
+}
 
+# call like: win great pro/con advice (defaults to me with no recognized name)
+#            win bill helping fix root causes
+#            win sarah excellent comment on strategy
+```
 
 Etc.
 And you'll see the task sitting at the top of your New Tasks list!
